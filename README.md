@@ -20,4 +20,4 @@ Holly shit!!!!
     tab으로도 된단말야?
   
 
-![Alt text](/path/to/명언.jpg)
+![Alt text](/명언.jpg)
