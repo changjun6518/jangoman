@@ -9,8 +9,13 @@ the real always stand still
 #   1. django
 ##  2. html, css, javascript
 
-  def asd:
-    return 3
-    
-    
-???
+<pre>
+<code>
+public class BootSpringBootApplication {
+  public static void main(String[] args) {
+    System.out.println("Hello, Honeymon");
+  }
+
+}
+</code>
+</pre>
