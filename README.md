@@ -21,3 +21,13 @@ Holly shit!!!!
   
 
 ![Alt text](/명언.jpg)
+
+
+
+
+# 2020/4/10 금요일
+git hub과 vs code branch (push pull)
+
+README.md (github때매 뜸) markdown 언어 사용법 링크 (https://gist.github.com/ihoneymon/652be052a0727ad59601#file-gistfile1-md)
+끝
+***
