@@ -47,6 +47,8 @@ class Language(models.Model):
     book = models.OneToOneField(
         Book,
         on_delete = models.CASCADE,
+        related_name = 'languages',
+
     )
 
     language = models.CharField(max_length = 200)
