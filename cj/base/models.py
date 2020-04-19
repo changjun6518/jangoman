@@ -4,17 +4,49 @@ from django.db import models
 
 
 class Library(models.Model):
-    pass
+    name = models.CharField(max_length = '200')
+    address = models.CharField(max_length = '200')
+
 
 class Author(models.Model):
-    pass
+    name = models.CharField(max_length = '200')
+    nationarity = models.CharField(max_length = '200')
 
 
 class Book(modles.Model):
-    pass
+    library = models.ForeignKey(
+        Library,
+        on_delete = models.CASECADE,
+        related_name = 'books',
+    )
+    author = models.ForeignKey(
+        Author,
+        on_delete = models.CASECADE,
+        related_name = 'books'
+    )
+
+    title = models.CharField(max_length = '200')
+
+
+# 책이 어느 도서관에 몇개 있는지에 대한 걸 만들 순 없는가?
+
 
 class Page(models.Model):
-    pass
+    book = models.ForeignKey(
+        Book,
+        on_delete = models.CASECADE,
+        related_name = 'pages',
+    )
+
+    text = medels.TextField(null=True, blank = True)
+    page_number = models.IntegerField()
+
+
 
 class Language(models.Model):
-    pass
+    book = models.OneToOneField(
+        Book,
+        on_delete = models.CASECADE,
+    )
+
+    language = models.CharField(max_length = '200')
