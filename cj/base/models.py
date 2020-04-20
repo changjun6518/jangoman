@@ -21,7 +21,10 @@ class Author(models.Model):
 
 class Language(models.Model):
 
-    language = models.CharField(max_length = 200)
+    language = models.CharField(
+        max_length = 200,
+        default = '',
+        )
 
     def __str__(self):
         return self.language
@@ -41,6 +44,7 @@ class Book(models.Model):
     language = models.ForeignKey(
         Language,
         on_delete = models.CASCADE,
+        default = '',
         related_name = 'books'
     )
 
