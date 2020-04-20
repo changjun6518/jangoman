@@ -21,7 +21,7 @@ class Author(models.Model):
 
 class Language(models.Model):
 
-    language = models.CharField(
+    lang = models.CharField(
         max_length = 200,
         default = '',
         )
