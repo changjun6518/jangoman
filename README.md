@@ -122,6 +122,15 @@ class Page(models.Model):
 
 ![Alt text](/7.JPG)
 
+### 문제 였거나 아직 해결 안됨
+
+1. 중간에 관계에 있어서 다르게 하면 좋을 것 같아서 migrate 하고 데이터도 만든 이후에 모델을 수정한 후 migrate를 하였음       
+근데 자꾸 book에서 에러 발생...       
+2. Page 1대1 연결할 때 django.db.utils.IntegrityError: NOT NULL constraint failed: base_page.book_id 뜸... 아직 이유 모르겠음
+3. 모델.objects.create()할 때 안에 다른 테이블의 레코드가 필요할 경우 객체를 사용하는데 객체를 사용안하는 방법이 있나?        
+   그리고 filter로 객체를 받았을 때 만들어지지 않고 get으로 받아야 만들어 졌다. 뭐 다른 방법이 있겠지만 fitler의 형식이 다른가보다.
+   
+    ##exit()
 
 ***
 
