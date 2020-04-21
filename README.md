@@ -94,21 +94,27 @@ class Page(models.Model):
 ![Alt text](/1.JPG)
 
 > Library 데이터 생성 및 객체 생성 (방법1)
+![Alt text](/2.JPG)
 
 
 > Language 데이터 생성
+![Alt text](/3.JPG)
 
 
 > Author 데이터 생성 (방법2)
+![Alt text](/4.JPG)
 
 
 > Author, Language 객체 생성
+![Alt text](/캡처5.JPG)
 
 
 > Book 데이터 생성
+![Alt text](/6.JPG)
 
 
 > all(), filter() 사용
+![Alt text](/7.JPG)
 
 
 ***
