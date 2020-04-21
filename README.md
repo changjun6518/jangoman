@@ -91,6 +91,7 @@ class Page(models.Model):
 
 > import 모델 클래스 하기
 <img scr = /1.JPG></img>
+![Alt text](/1.jpg)
 
 > Library 데이터 생성 및 객체 생성 (방법1)
 <img scr = /2.JPG></img>
