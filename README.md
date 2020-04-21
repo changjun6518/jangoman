@@ -90,26 +90,26 @@ class Page(models.Model):
 ### ORM 사용하여 데이터 만들기
 
 > import 모델 클래스 하기
-<img scr = /1.JPG></img>
-![Alt text](/1.jpg)
+
+![Alt text](/1.JPG)
 
 > Library 데이터 생성 및 객체 생성 (방법1)
-<img scr = /2.JPG></img>
+
 
 > Language 데이터 생성
-<img scr = /3.JPG></img>
+
 
 > Author 데이터 생성 (방법2)
-<img scr = /4.JPG></img>
+
 
 > Author, Language 객체 생성
-<img scr = /5.JPG></img>
+
 
 > Book 데이터 생성
-<img scr = /6.JPG></img>
+
 
 > all(), filter() 사용
-<img scr = /7.JPG></img>
+
 
 ***
 
