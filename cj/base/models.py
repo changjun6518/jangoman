@@ -40,7 +40,7 @@ class Book(models.Model):
         return self.title
 
 
-class Page(model.Model):
+class Page(models.Model):
     book = models.OneToOneField(
         Book,
         on_delete = models.CASCADE,
