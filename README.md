@@ -125,9 +125,9 @@ class Page(models.Model):
 
 ***
 
-# 2020/4/10 금요일
-#   1. django
-##  2. html, css, javascript
+### 2020/4/10 금요일
+##   1. django
+###  2. html, css, javascript
 
 <pre>
 <code>
